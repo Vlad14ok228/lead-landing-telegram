@@ -1,0 +1,47 @@
+# Environment variables — NEVER commit real credentials
+.env
+backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+.venv/
+venv/
+env/
+.env/
+pip-wheel-metadata/
+
+# Virtual environments
+.venv
+venv
+ENV
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Node (if ever added)
+node_modules/
